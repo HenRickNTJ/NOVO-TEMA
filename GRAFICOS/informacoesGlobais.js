@@ -6,3 +6,4 @@ async function visualizarInformacoesGlobais () {
     console.log(dados);
 }
 visualizarInformacoesGlobais()
+paragrafo.innerHTML = Você sabia que o mundo tem <span>${dados.total_pessoas_mundo}</span> de pessoas e que aproximamente <span>$
