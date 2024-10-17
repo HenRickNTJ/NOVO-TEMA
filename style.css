@@ -37,3 +37,12 @@ nav a:hover{
     transform: scale(0,90);
     transition: transform 0.1s;
 }
+.grafico-container {
+    margin: 5rem;
+}
+.graicos-container__texto{
+    font-size: 1.rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+}
