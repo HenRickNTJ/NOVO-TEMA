@@ -3,11 +3,12 @@
     --bg-color: #5909ee;
     --primary-color: #c0dff1;
     --secundary-color: #8AD7C1 ;
+    --font: 'Kanit'
 }
 body{
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-family: var(--tipo-fonte);
+    font-family: var(--font);
     height: 100vh;
     margin: 0;
 }
@@ -40,7 +41,7 @@ nav a:hover{
 .grafico-container {
     margin: 5rem;
 }
-.graicos-container__texto{
+.graficos-container__texto{
     font-size: 1.rem;
     text-align: center;
     padding: 2rem;
