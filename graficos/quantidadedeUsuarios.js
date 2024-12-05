@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuariosJogando() {
-    const url = 'https://github.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamicosComJavaScript/blob/Aula01/esportes/esportes-mais-praticados.json'
+    const url = 'https://raw.githubusercontent.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamicosComJavaScript/refs/heads/Aula01/esportes/esportes-mais-praticados.json'
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDosEsportes = Object.keys(dados)
