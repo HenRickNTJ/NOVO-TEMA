@@ -5,8 +5,8 @@ async function vizualizarInformacoesJogadores() {
     const dados = await res.json()
     const pessoasJogando = (dados.total_pessoas_que_praticam_esportes_regularmente / 1e9)
     const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
-    const horas = parseInt(dados.tempo_medio)
-    const minutos = Math.round((dados.tempo_medio - horas) * 100)
+    const horas = parseInt(dados.tempo_medio_semana_praticando_esportes)
+    const minutos = Math.round((dados.tempo_medio_semana_praticando_esportes - horas) * 100)
     const porcentagemJogando = ((pessoasJogando / pessoasNoMundo ) * 100).toFixed(2)
 
     const paragrafo = document.createElement('p')
